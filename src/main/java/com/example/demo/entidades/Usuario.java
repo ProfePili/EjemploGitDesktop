@@ -49,7 +49,7 @@ public class Usuario {
     @Enumerated(EnumType.STRING)
     private Rol rol; // ahora tienen un rol    
     
-    private String juanpi;
+    private String juanpii;
     
 //    private String contraseña; // necesitamos una contraseña
 
