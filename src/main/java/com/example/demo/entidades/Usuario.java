@@ -42,9 +42,6 @@ public class Usuario {
 
     @Transient // no va a persistir en la DB
     private Integer edad;
-    
-    
-    private String algo;
 
     @OneToOne
     private Direccion direccion; // tiene relación uno a uno con Direccion
