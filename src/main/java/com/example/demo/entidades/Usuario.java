@@ -32,7 +32,7 @@ public class Usuario {
     @Column(nullable = false) // no se permiten valores nulos
     private String nombre;
 
-    @Column(name = "APELLIDOS")
+  
     private String apellido;
 
     @Temporal(TemporalType.DATE) // si o si al manejar fechas debemos especificar el tipo
@@ -48,6 +48,8 @@ public class Usuario {
     
     @Enumerated(EnumType.STRING)
     private Rol rol; // ahora tienen un rol    
+    
+    private String juanpi;
     
 //    private String contraseña; // necesitamos una contraseña
 
